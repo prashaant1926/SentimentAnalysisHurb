@@ -1,3 +1,4 @@
+library(lexiconPT)
 ptPolarityCalculator <- function( sentencePt ){
   score <- 0
   ctr <- 0
