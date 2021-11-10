@@ -20,5 +20,5 @@ ptPolarityCalculator <- function( sentencePt ){
   score <- 0
   ctr <- 0
  
-  return(totalScore)
+  return(as.vector(totalScore))
 }
