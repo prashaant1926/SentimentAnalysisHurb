@@ -19,7 +19,6 @@ ptPolarityCalculator <- function( sentencePt ){
   totalScore<- score/ctr
   score <- 0
   ctr <- 0
-  
-  print(totalScore)
+ 
   return(totalScore)
 }
