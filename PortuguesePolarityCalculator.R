@@ -20,5 +20,5 @@ ptPolarityCalculator <- function( sentencePt ){
   score <- 0
   ctr <- 0
  
-  return(as.vector(totalScore))
+  return(as.vector(totalScore)[1]) #I am not sure why the function returns 2 values in a vector. Picking one of these values
 }
